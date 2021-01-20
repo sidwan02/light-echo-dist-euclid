@@ -29,7 +29,7 @@ from dash.dependencies import State, Input, Output
 app = dash.Dash()
 
 # create the server
-light_echo_dist_euclid = app.server
+server = app.server
 
 # create dash authorization
 # auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
