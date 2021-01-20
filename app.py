@@ -31,6 +31,8 @@ app = dash.Dash()
 # create the server
 server = app.server
 
+app.title = 'Light Echoes Euclid Geometry'
+
 # create dash authorization
 # auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 
